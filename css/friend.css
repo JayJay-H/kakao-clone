@@ -7,9 +7,40 @@
 .friend .friend__avatar {
   width: 50px;
   background-color: palegoldenrod;
-  border-radius: 35%;
+  border-radius: 38%;
+  margin-right: 15px;
 }
 
 .friend__avatar.g-avatar {
-  /* width: 70px; */
+  width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend__content .friend__name {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 13px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 11px;
 }
